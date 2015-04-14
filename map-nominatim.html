@@ -1,0 +1,32 @@
+<!doctype html>
+
+<!--
+    Demo of Leaflet with Nominatim
+-->
+
+<html lang="us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Leaflet & Nominatim test</title>
+    <script src="jquery.min.js"></script>
+    <script src="leaflet.js"></script>
+    <script src="map-nominatim.js"></script>
+    <link href="leaflet.css" rel="stylesheet">
+    <link href="map-nominatim.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+    <div id="map">
+    </div>
+
+    <div id="search">
+      <input type="text" name="addr" value="" id="addr" size="10" />
+      <button type="button">Search</button>
+      <div id="results"/>
+      <div id="resultsphoto"/>
+    </div>
+
+  </body>
+</html>
